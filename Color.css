@@ -1,0 +1,231 @@
+/*
+COLOR PALETTE 
+https://coolors.co/0b0a0a-e3b505-7c898b-fffaff-020f3c
+#OBOAOA- Rich Black FOGRA 39 
+#E3B505 - Orange Yellow 
+#7C898B - Battleship Grey 
+#FFFAFF - Ghost White 
+#O2OF3C - Oxford Blue 
+*/
+/* Global styles 
+---------------------------------*/
+html {
+box-sizing: border-box;
+} 
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body { 
+    color: #fbfefe; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img { 
+    width: 300px;
+}  
+
+a { 
+    color: #042dfc;
+}
+a:hover { 
+    text-decoration: none;
+} 
+
+p { 
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 17px; 
+   line-height: 28px;
+}
+.content-wrap { 
+    max-width: 800px; 
+    width: 85%;
+    margin: 0 auto; 
+    padding: 60px 0;
+} 
+h2 {
+margin: 0; 
+font-family:'sans-serif'; 
+font-size: 45px;
+}
+h1 {
+    font-size: 47px; 
+    font-family: italic; 
+    line-height: 0; 
+    margin-left: -2.5px;
+} 
+/*'Times New Roman', Times, serif*/
+h3 { 
+    font-family: serif; 
+    font-size: 21px; 
+} 
+.divider > section {
+    border-bottom: 1px dashed #343434; 
+     padding: 28px 0;
+} 
+.divider > section:last-of-type { 
+    border-bottom: none;
+}
+/* Profile 
+------------------------------------*/ 
+header {
+   background: #081d8a; 
+} 
+
+a.a {
+color: #f9f501;
+}
+
+/* Projects 
+--------------------------------------*/ 
+.projects { 
+    background:#dcf7f7; 
+    color:rgb(1, 15, 27) 
+} 
+.projectss { 
+    color: #102bb3;
+}
+.projects .a { 
+    color: #fbfbfd; 
+    background:#16014e; 
+    text-decoration: none;
+    padding: 8px; 
+    border-radius: 4px; 
+    display: inline-block;
+}
+
+.projects .a:hover { 
+    background: rgb(94, 94, 155);
+} 
+
+.projects h2 {
+    font-size: 35px; 
+    margin-top: -10px; 
+} 
+.project-item { 
+     overflow: hidden; 
+     margin-bottom: 0;
+}
+
+.project-item h3 { 
+    margin-top: 0px;
+}
+
+/* Work Experience
+---------------------------------------*/ 
+.Work-Experience { 
+    background: rgb(155, 206, 244);
+    color: #0f1010; 
+    line-height: 20px;
+} 
+
+.Work-Experience h2 {
+    font-size: 35px; 
+    margin-left: -5px; 
+    margin-bottom: 35px;  
+} 
+
+ .Work-Experience p,ul { 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px; 
+    line-height: 25px; 
+ }  
+ .Work-Experience li {
+    line-height: 25px;
+ }
+ .Work-Experience h3 ~ p { 
+    margin-top: 15px;  
+    margin: 0;
+ } 
+.Work-Experience h3 {
+    margin-top: 0; 
+    margin: 0;
+} 
+.Work-Experience h3 + p {
+    font-style: italic;
+} 
+
+/* Education
+----------------------------------------*/ 
+.Education { 
+    background-color: lightblue; 
+    color: #0f1010; 
+} 
+
+.Education p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+    line-height: 20px;
+} 
+
+.Education h2 {
+    font-size: 36px; 
+    margin-left: -1px;
+} 
+.Education {
+    background-image: url(../joanna-kosinska-unsplash.jpg); 
+    background-size: cover; 
+    background-position: top right; 
+    padding-bottom: 35px;
+}
+.Education p {
+    width: 60%;
+}
+/* Contact Information 
+------------------------------------------*/ 
+footer {
+    background: #343434; 
+    color: rgb(246, 248, 249); 
+}  
+footer a{ 
+    color: #0bc9fe;
+} 
+
+footer h2 {
+    font-size: 35px;
+} 
+.contact-list { 
+    list-style-type: none; 
+    padding: 0px; 
+} 
+/* Links 
+-------------------------------------------*/ 
+a { 
+    color: #2f05a3;
+} 
+
+a:hover { 
+    text-decoration: none; 
+}  
+
+/* Responsive 
+-------------------------------------------*/ 
+@media screen and (min-width:750px)  { 
+    header, footer {
+        text-align: center;
+    }
+    .project-item img { 
+        float: left; 
+        margin-right: 20px; 
+    }   
+
+    .job-item { 
+        display: grid; 
+        grid-template-columns: 1fr 2fr; 
+        column-gap: 20px;
+    }  
+    .contact-list {
+    display: flex; 
+    justify-content: center;
+    }
+}
+@media screen and (min-width:749px) { 
+    h1 {
+        font-size: 75px;
+    }
+.contact-list a {
+    padding: 5px;
+}
+}
